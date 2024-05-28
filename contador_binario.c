@@ -15,7 +15,7 @@
 int transiciones[NUM_ESTADOS][NUM_SIMBOLOS] =
 {
     {0, 0, 0, 1},
-    {1, 0, 0, 1},
+    {0, 1, 1, 1},
 };
 
 int salidas[NUM_ESTADOS][NUM_SIMBOLOS] =
